@@ -1,5 +1,6 @@
 import {CalendarDays, MapPin, Users} from "lucide-react";
-import {Button} from "./components/ui/button.tsx";
+import {Button} from "./ui/button.tsx";
+import {Link} from "react-router-dom";
 
 export default function EventCard  () {
    return (
@@ -22,7 +23,9 @@ export default function EventCard  () {
                     Description : is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                 </span>
                </div>
-               <Button className="mt-5" size="lg">Voir l'événement</Button>
+               <Button asChild className="mt-5" size="lg">
+                   <Link to="/event/122">Voir l'événement</Link>
+               </Button>
            </div>
 
        </>
