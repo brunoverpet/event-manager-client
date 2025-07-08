@@ -1,5 +1,6 @@
 import Navbar from "./Navbar.tsx";
 import {Button} from "./components/ui/button.tsx";
+import EventCard from "./EventCard.tsx";
 
 export default function App()  {
 
@@ -19,6 +20,10 @@ export default function App()  {
                   <div className="flex justify-between space-x-8">
                     <h2 className="text-5xl font-semibold">Événements en cours</h2>
                     <Button> Créer un événement</Button>
+                  </div>
+
+                  <div className="mt-16">
+                      <EventCard />
                   </div>
               </div>
           </div>
