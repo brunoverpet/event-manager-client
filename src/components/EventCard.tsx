@@ -24,7 +24,7 @@ export default function EventCard  () {
                 </span>
                </div>
                <Button asChild className="mt-5" size="lg">
-                   <Link to="/event/122">Voir l'événement</Link>
+                   <Link to="/event/12">Voir l'événement</Link>
                </Button>
            </div>
 
