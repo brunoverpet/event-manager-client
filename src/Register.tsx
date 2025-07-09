@@ -1,6 +1,6 @@
-import { Input } from "@/components/ui/input"
-import { Button } from "@/components/ui/button"
 import {Link} from "react-router-dom";
+import {Input} from "./components/ui/input.tsx";
+import {Button} from "./components/ui/button.tsx";
 
 export default function Register () {
     return (
